@@ -1,0 +1,71 @@
+.nav-item a {
+    color: #000;
+    text-shadow: .75px -.75px .75px #17e3cf;
+}
+
+.nav-item a:hover {
+    color: #17e3cf;
+    text-shadow: .75px -.75px .75px #000;
+
+}
+
+.nav-item a:active {
+    color: #000;
+    text-shadow: .75px -.75px .75px #17e3cf;
+}
+
+.nav-item a:focus {
+    color: #000;
+    text-shadow: .75px -.75px .75px #17e3cf;
+}
+
+.masthead {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center -5%;
+    position: relative;
+    z-index: -1;
+
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: #aaa;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+
+  
+}
+
+/* .bg {
+    background-image: url(../images/Byrd/CarlMichelleByrd.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    position: relative;
+    z-index: -1;
+
+} */
+
+/* .bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: #aaa;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+} */
